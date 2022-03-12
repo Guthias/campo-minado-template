@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.board-cell {
+  background-color: #F1DAC4;
+  font-size: 28px;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  user-select: none;
+}
+
+.board-cell.hide {
+  background-color: #077187;
+  color: red;
+}
+
+.game-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
